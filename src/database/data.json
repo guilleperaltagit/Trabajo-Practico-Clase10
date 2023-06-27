@@ -1,0 +1,22 @@
+[
+	{
+		"id": 1,
+		"marca": "Peugeot",
+		"color": "Verde Mayerling"
+	},
+	{
+		"id": 2,
+		"marca": "Ford",
+		"color": "Gris Plata Antares"
+	},
+	{
+		"id": 3,
+		"marca": "Rastrojero",
+		"color": "Blanco"
+	},
+	{
+		"id": 4,
+		"marca": "Toyota",
+		"color": "Negro"
+	}
+]
