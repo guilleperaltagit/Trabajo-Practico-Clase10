@@ -2,21 +2,25 @@
 	{
 		"id": 1,
 		"marca": "Peugeot",
-		"color": "Verde Mayerling"
+		"color": "Verde Mayerling",
+		"anio": 1988
 	},
 	{
 		"id": 2,
 		"marca": "Ford",
-		"color": "Gris Plata Antares"
+		"color": "Gris Plata Antares",
+		"anio": 1997
 	},
 	{
 		"id": 3,
 		"marca": "Rastrojero",
-		"color": "Blanco"
+		"color": "Blanco",
+		"anio": 1973
 	},
 	{
 		"id": 4,
 		"marca": "Toyota",
-		"color": "Negro"
+		"color": "Negro",
+		"anio": 2022
 	}
 ]

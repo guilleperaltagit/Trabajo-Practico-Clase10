@@ -32,16 +32,16 @@ server.get("/coches/:id", (req, res) => {
 
 //Crear un nuevo coche
 server.post("/coches", (req, res) => {
-    const { marca, color } = req.body
-    create(marca, color)
+    const { marca, color, anio } = req.body
+    create(marca, color, anio)
         .then((coche) => res.status(201).send(coche))
         .catch((error) => res.status(400).send(error.message))
 })
 
 //Actualizar un coche específico por ID
 server.put("/coches", (req, res) => {
-    const { id, marca, color } = req.body
-    update({id: Number(id), marca, color})
+    const { id, marca, color, anio } = req.body
+    update({id: Number(id), marca, color, anio})
         .then((coche) => res.status(200).send(coche))
         .catch((error) => res.status(400).send(error.message))    
 })
