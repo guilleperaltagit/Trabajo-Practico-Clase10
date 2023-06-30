@@ -4,10 +4,10 @@
 
 - Listado de todos los coches: http://http://127.0.0.1:5000/coches
 
-- Buscar un coche específico (GET): http://127.0.0.1:5000/coches/2
+- Buscar un coche específico (GET/id): http://127.0.0.1:5000/coches/2
 
-- Crear un coche (POST - form-urlencoded - marca y color): http://127.0.0.1:5000/coches
+- Crear un coche (POST - form-urlencoded - marca, color y año): http://127.0.0.1:5000/coches
 
-- Crear un coche (PUT - form-urlencoded - id, marca y color): http://127.0.0.1:5000/coches
+- Modificar un coche (PUT - form-urlencoded - id, marca, color y año): http://127.0.0.1:5000/coches
 
 - Borra un coche (DELETE - form-urlencoded - id): http://127.0.0.1:5000/coches
